@@ -6,6 +6,8 @@ import { MaterialModule } from './material.module';
 import { ConversationsModule } from '@app/conversations/conversations.module';
 import { AppRoutingModule } from '@app/app-routing.module';
 import { CoreModule } from '@app/core/shell/core.module';
+import { LoginModule } from '@app/login/login.module';
+import { SocialChatModule } from '@app/social-chat/social-chat.module';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { CoreModule } from '@app/core/shell/core.module';
     BrowserModule,
     CoreModule,
     ConversationsModule,
+    SocialChatModule,
+    LoginModule,
     AppRoutingModule
   ],
   providers: [],

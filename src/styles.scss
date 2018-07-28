@@ -12,3 +12,29 @@
  // have to load a single css file for Angular Material in your app.
  // Be sure that you only ever include this mixin once!
  @include mat-core();
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ge-root,
+mat-sidenav-container {
+  margin: 0;
+  height: 100%;
+}
+
+.mat-sidenav-content {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
