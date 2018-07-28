@@ -1,0 +1,16 @@
+<div fxFlex class="content-shell">
+
+  <!--Componente Header  -->
+  <app-header></app-header>
+
+  <!-- Componente Sidenav container-->
+  <mat-sidenav-container autosize>
+
+    <mat-sidenav-content>
+
+      <!-- Injecto el router-outlet desde el app-component con la etiqueta ng-content -->
+      <ng-content></ng-content>
+
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
